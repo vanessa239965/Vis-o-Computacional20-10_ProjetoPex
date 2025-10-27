@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LoRa e ESP32 - Comunicação de Longa Distância</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+            text-align: center;
+        }
+        header {
+            background-color: #008CBA;
+            color: white;
+            padding: 20px;
+            font-size: 24px;
+        }
+        .content {
+            margin: 30px auto;
+            max-width: 900px;
+            padding: 20px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2 {
+            color: #0057b8;
+        }
+        p {
+            font-size: 18px;
+            line-height: 1.6;
+            margin: 20px 0;
+        }
+        .image {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin-top: 20px;
+        }
+        .qrcode {
+            margin-top: 30px;
+        }
+        .image-container {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 20px;
+        }
+        .image-container img {
+            max-width: 45%;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        LoRa e ESP32 - Comunicação de Longa Distância com IoT
+    </header>
+
+    <div class="content">
+        <h1>O que é o Módulo LoRa?</h1>
+        <p>O módulo LoRa (Long Range) é uma tecnologia sem fio projetada para permitir comunicação de dados a longas distâncias com baixo consumo de energia. É amplamente utilizado em redes de sensores e dispositivos IoT, principalmente em ambientes de difícil acesso, como áreas rurais, agrícolas e cidades inteligentes.</p>
+
+        <h2>Principais Características do LoRa:</h2>
+        <ul>
+            <li>Alcance de até 15 km em áreas abertas</li>
+            <li>Baixo consumo de energia, ideal para dispositivos alimentados por bateria</li>
+            <li>Excelente penetração em ambientes urbanos e rurais</li>
+            <li>Segurança de dados através de criptografia</li>
+        </ul>
+
+        <div class="image-container">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/LoRa_logo.svg/1200px-LoRa_logo.svg.png" alt="LoRa Technology" class="image">
+            <img src="https://cdn.sparkfun.com//assets/parts/1/1/4/3/5/14551-01.jpg" alt="Módulo LoRa" class="image">
+        </div>
+
+        <h1>ESP32 - O Cérebro da Comunicação</h1>
+        <p>O **ESP32** é um microcontrolador altamente flexível e poderoso, projetado para aplicações IoT. Ele é equipado com Wi-Fi e Bluetooth integrados, além de ter uma excelente capacidade de processamento, o que o torna ideal para integração com o módulo LoRa. Juntos, o ESP32 e o LoRa podem formar uma solução de comunicação robusta e eficiente.</p>
+
+        <h2>Características do ESP32:</h2>
+        <ul>
+            <li>Wi-Fi e Bluetooth integrados</li>
+            <li>Dois núcleos de processamento de alta performance</li>
+            <li>Perfeito para aplicações que necessitam de baixo consumo de energia</li>
+            <li>Alta compatibilidade com diversos sensores e módulos externos</li>
+        </ul>
+
+        <div class="image-container">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/9/94/ESP32-DevKitC-01.jpg" alt="ESP32 DevKit" class="image">
+            <img src="https://www.electronicwings.com/public/images/esp32-1.jpg" alt="ESP32" class="image">
+        </div>
+
+        <h1>Integração do LoRa com ESP32</h1>
+        <p>Integrar o módulo LoRa com o ESP32 é uma das formas mais eficientes de construir sistemas de IoT de longa distância. O ESP32 controla a comunicação, processando e enviando dados via LoRa para outros dispositivos ou estações base. Isso permite que você crie redes inteligentes e conectadas em locais remotos, sem a necessidade de infraestrutura de comunicação cara.</p>
+
+        <h2>Exemplo de Aplicações Combinadas:</h2>
+        <ul>
+            <li>Monitoramento remoto de fazendas ou plantações</li>
+            <li>Sistemas de monitoramento ambiental em áreas de difícil acesso</li>
+            <li>Controle de dispositivos em cidades inteligentes e redes de sensores</li>
+        </ul>
+
+        <h2>Escaneie o QR Code para mais informações sobre LoRa e ESP32</h2>
+
+        <div class="qrcode">
+            <!-- QR Code gerado para um link de mais informações -->
+            <img src="https://api.qrserver.com/v1/create-qr-code/?data=https://www.esp32.com&size=150x150" alt="QR Code">
+        </div>
+    </div>
+
+</body>
+</html>
